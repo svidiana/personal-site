@@ -1,0 +1,218 @@
+body {
+    margin:0;
+    padding:0;
+height: 7722px;
+}
+.header {
+height: 973px;
+flex-shrink: 0;
+background: url(images/background-gradient1.png), lightgray 50%;
+background-size:cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navigation {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .nav-element {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 16px;
+    color:black;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+text-decoration:none;
+  }
+  .tertiary-button {
+    font-family: 'Rubik Mono One', sans-serif;
+    font: size 16px;
+    color:black;
+    padding:10px;
+    text-decoration:none;
+  }
+  .secondary-button {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:16px;
+    color:black;
+    padding:10px;
+    border:solid;
+    border-width:2px;
+    color:black;
+    text-decoration:none;
+  }
+
+  h1 {
+    display: flex;
+    width: 722px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+font-size: 82px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: 400;
+line-height: 106.3%;
+margin:14px;
+  }
+  h3 {
+    font-size: 18px;
+font-family: Rubik Mono One;
+color:black;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .p1 {
+    display: flex;
+    width: 613px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+font-size: 16px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin:14px;
+  }
+
+  .primary-button {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:16px;
+    display: flex;
+padding: 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid #000;
+background: #000;
+color:white;
+margin:14px;
+cursor:pointer;
+  }
+  .robot1 {
+    display: flex;
+    flex-direction:row;
+width: 767px;
+height: 767px;
+padding: 0px 24px 277px 0px;
+align-items: center;
+flex-shrink: 0;
+    width: 767px;
+height: 767px;
+flex-shrink: 0;
+  }
+.container {
+    display:flex;
+    flex:1;
+}
+.right-section {
+    display:flex;
+}
+.quote-section {
+    display: flex;
+width: 1438px;
+height: 914px;
+padding: 88px 163px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+flex-shrink: 0;
+background-color:black;
+}
+.quote1 {
+    display: flex;
+width: 1438px;
+height: 914px;
+padding: 88px 163px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+flex-shrink: 0;
+color: #FFF;
+font-size: 60px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: 400;
+line-height: 106.3%;
+margin:14px;
+}
+.author {
+display: flex;
+width: 778px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+text-align: right;
+font-size: 16px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin:14px;
+}
+.card mb-3 {
+    width: 977px;
+height: 667px;
+border-radius: 39px;
+background-color:  #F4FF70;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+display: inline-flex;
+padding: 40px 65px;
+gap: 10px;
+padding-top:40px;
+padding-bottom:40px;
+padding-left:65px;
+padding-right:65px;
+
+}
+.p2 {
+    display: flex;
+    width: 613px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: black;
+font-size: 16px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin:14px;
+  }
+  .project-image {
+    border-radius:29px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    width: 977px;
+height: 667px;
+  }
+  .link-button {
+    font-family: Open Sans;
+    font-size:16px;
+    color:black;
+    padding:10px;
+    border:none;
+    color:black;
+    text-decoration:none;
+    background-color:transparent;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 7px;
+
+  }
